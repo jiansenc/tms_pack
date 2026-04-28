@@ -1,0 +1,20 @@
+[[projects]]
+name = "name"
+uid = ""
+description = "xx"
+projectId = 1
+path = ""
+language_zh_path = [
+  "/src/lang/zh.js",
+]
+node_version = 16
+group = "ff"
+prefix = "tms"
+glob = "/src/**/*.{js,vue}"
+tms_content = "export default __TMS_CONTENT__"
+[projects.ssh]
+host = "xxx"
+port = 22
+username = "xxx"
+password = "xxx"
+sshpath = "/app/nginx"

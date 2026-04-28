@@ -1,0 +1,23 @@
+{
+  "name": "app",
+  "version": "1.0.50",
+  "scripts": {
+    "dev": "bun run --env-file=.env --watch src/index.js",
+    "start": "bun run --env-file=.env src/index.js",
+  },
+  "dependencies": {
+    "@elysiajs/static": "^1.4.7",
+    "axios": "^1.13.2",
+    "axios-cookiejar-support": "^6.0.5",
+    "elysia": "latest",
+    "querystring": "^0.2.1",
+    "ssh2": "^1.17.0",
+    "ssh2-sftp-client": "^12.0.1",
+    "tough-cookie": "^6.0.0",
+    "zip-a-folder": "^4.0.4"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "module": "src/index.js"
+}
